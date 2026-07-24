@@ -1,0 +1,278 @@
+{
+  "contact_us": "Contact Us",
+  "get_consultation": "Get Career Consultation",
+
+  "nav_links": [
+    { "label": "About", "path": "#about" },
+    { "label": "Services", "path": "#services" },
+    { "label": "Results", "path": "#results" },
+    { "label": "Contact", "path": "#contact" }
+  ],
+
+  "hero_section": {
+    "badge": "YOUR US HIRING PARTNER",
+    "title_line1": "Master the US",
+    "title_line2": "Career Arena",
+    "description": "Don't just apply, Get-Hired through professional branding engineered for candidates who refuse to blend into the noise.",
+    "cta": "Get Job Ready"
+    
+  },
+
+  "hero_job_card": {
+    "role": "Software Engineer",
+    "company": "Adobe",
+    "meta": "Texas, USA • Full-time • W2 • 1–3 yrs",
+    "tags": ["Remote", "OPT Friendly"],
+    "applied_label": "Applied"
+  },
+
+  "hero_phone_jobs": [
+    { "role": "Software Engineer", "company": "Adobe", "color": "#C32F26", "initial": "A" },
+    { "role": "Frontend Developer", "company": "Google", "color": "#2F6FED", "initial": "G" },
+    { "role": "Product Designer", "company": "Discord", "color": "#5865F2", "initial": "D" },
+    { "role": "Data Engineer", "company": "Twitch", "color": "#9147FF", "initial": "T" }
+  ],
+
+  "hero_avatars": ["AS", "RM", "WC"],
+
+  "brands_section": {
+    "heading": "STUDENTS HIRED BY"
+  },
+
+  "brand_logos": [
+    { "name": "Airbnb", "image": "/images/brands/Airbnb.png" },
+  
+  
+    { "name": "Giphy", "image": "/images/brands/Giphy.png" },
+    { "name": "Microsoft", "image": "/images/brands/Microsoft.png" },
+    { "name": "Netflix", "image": "/images/brands/Netflix.png" },
+    { "name": "Tencent", "image": "/images/brands/Tencent.png" },
+      { "name": "Alphabet", "image": "/images/brands/Alphabet.png" }
+   
+  ],
+
+  "capabilities_section": {
+    "label": "OUR CAPABILITIES",
+    "title": "Become the Applicant Top US Companies Fight For",
+    "description": "A generic resume and endless applications won't get you far. Get practical guidance, interview coaching and real-world hiring insights that help employers see your potential from day one."
+  },
+
+  "capabilities_items": [
+    {
+      "title": "Resume Preparation",
+      "image": "/images/capabilities/resume.jpg",
+      "video": "/videos/capabilities/resume.mp4",
+      "description": "Stand out with a recruiter-ready resume that highlights your strengths, achievements and target experience to pass automated screening filters from the very first application.",
+      "bullets": [
+        "ATS Optimization & Keyword Alignment",
+        "Impact-Driven Achievement Framing",
+        "Industry-Specific Modern Formatting"
+      ],
+      "cta": "Build my resume"
+    },
+    {
+      "title": "Cover Letter Upgrade",
+      "image": "/images/capabilities/cover-letter.jpg",
+      "video": "/images/hero/Cover_Letter.mp4",
+      "description": "Turn a formality into a persuasion tool. We craft role-specific cover letters that connect your story to the company's mission and make hiring managers want to meet you.",
+      "bullets": [
+        "Role-Specific Personalization",
+        "Storytelling That Sells Impact",
+        "Tone Matched to Company Culture"
+      ],
+      "cta": "Upgrade my letter"
+    },
+    {
+      "title": "LinkedIn Makeover",
+      "image": "/images/capabilities/linkedin.jpg",
+      "video": "/images/hero/LinkiedIn.mp4",
+      "description": "Recruiters search before they call. We rebuild your headline, about section and experience so you surface in the right searches and convert profile views into conversations.",
+      "bullets": [
+        "Search-Optimized Headline & Skills",
+        "Recruiter-Focused About Section",
+        "Content Strategy for Visibility"
+      ],
+      "cta": "Makeover my profile"
+    },
+    {
+      "title": "Job Portal Profile Makeover",
+      "image": "/images/capabilities/job-portal.jpg",
+      "video": "/images/hero/Job_Portal.mp4",
+      "description": "Indeed, Dice, Handshake and beyond — we align every portal profile with your target roles so automated matching works for you instead of against you.",
+      "bullets": [
+        "Portal-Specific Keyword Tuning",
+        "Complete & Consistent Profiles",
+        "Smart Alerts & Application Strategy"
+      ],
+      "cta": "Optimize my portals"
+    }
+  ],
+
+  "why_section": {
+    "label": "WHY GET-HIRED",
+    "title": "As your hiring partner, we believe you don't have to be smarter, just more disciplined than the rest, Here is how we practice what we preach",
+    "backgroundImage": "/images/why/why_get_hire_back.png"
+  },
+
+  "why_cards": [
+    {
+      "title": "1-on-1 Mentorship",
+      "description": "No extra fees or rare access. Get personalized, dedicated guidance included from day one of your journey."
+    },
+    {
+      "title": "Transparent Pricing",
+      "description": "Forget inflated, hidden costs. Experience an affordable, clear investment structure designed with honesty first."
+    },
+    {
+      "title": "Support Till Placement",
+      "description": "Traditional consultancies drop you when the clock runs out; we support your career journey until your offer is secured."
+    },
+    {
+      "title": "Real Hiring Insights",
+      "description": "Breaking into the US market needs current, targeted intel. We bring real recruiter feedback to your strategy every week."
+    }
+  ],
+
+  "success_stories_section": {
+    "label": "SUCCESS STORIES",
+    "title": "From International Students to US Professionals",
+    "description": "Hundreds of international students used Get-Hired to crack the US job market. Explore the raw data, see the success metrics and hear the stories in their own words.",
+    "cta": "View all stories"
+  },
+
+  "success_stats": [
+    { "value": "1000+", "label": "Candidate Placed" },
+    { "value": "05+", "label": "Year Experience" },
+    { "value": "500+", "label": "Happy Clients" }
+  ],
+
+  "success_stories": [
+    {
+      "company": "MICROSOFT",
+      "role": "SOFTWARE ENGINEER",
+      "image": "/images/stories/Microsoft002.png",
+      "title": "From zero callbacks to 5 interviews in 3 weeks.",
+      "description": "Ananya arrived with a strong GPA and an invisible resume. We rebuilt it for ATS, repositioned her projects, and targeted sponsor-verified companies.",
+      "quote": "The ATS review changed everything about how I presented my experience. Interviews started within days of the rewrite.",
+      "person": "Ananya S.",
+      "initials": "AS",
+      "placement": "Placed in Seattle, WA · W2 + sponsorship"
+    },
+    {
+      "company": "ADOBE",
+      "role": "DATA ENGINEER",
+      "image": "/images/stories/Adobe001.png",
+      "title": "Offer signed 6 weeks into the program.",
+      "description": "Rahul had interviews but kept failing final rounds. Six mock loops with structured feedback fixed his storytelling and system design delivery.",
+      "quote": "Mock interviews were harder than the real thing. When my onsite came, I had already answered every question twice.",
+      "person": "Rahul M.",
+      "initials": "RM",
+      "placement": "Placed in San Jose, CA · 15% above initial offer"
+    },
+    {
+      "company": "AIRBNB",
+      "role": "PRODUCT DESIGNER",
+      "image": "/images/stories/Airbnb003.png",
+      "title": "Sponsorship secured before graduation.",
+      "description": "Wei's challenge wasn't skill — it was the visa question killing conversations. We built her answer script and a target list of proven sponsors.",
+      "quote": "The visa guidance alone was worth it. I stopped losing offers at the sponsorship conversation.",
+      "person": "Wei Chen",
+      "initials": "WC",
+      "placement": "Placed in New York, NY · F-1 to H-1B track"
+    }
+  ],
+
+  "ecosystem_section": {
+    "label": "WHAT WE OFFER",
+    "title": "Our Consulting Ecosystem",
+    "description": "Your competitive edge begins here. Explore tailored strategic tracks engineered to sharpen your skills, secure compliance and dominate the recruitment process."
+  },
+
+  "ecosystem_cards": [
+    {
+      "number": "01",
+      "title": "Immigration Advisory Support",
+      "description": "Clear guidance on CPT, OPT and STEM OPT. Map out strategic pathways for H-1B, H-4, L-2 and Green Card transitions with complete compliance confidence.",
+      "cta": "Get visa guidance"
+    },
+    {
+      "number": "02",
+      "title": "Interview Assessment Prep",
+      "description": "Master your upcoming interviews and assessments. Receive expert feedback, real-time evaluation, and strategic frameworks to confidently handle the toughest corporate panels.",
+      "cta": "Book advisory session"
+    },
+    {
+      "number": "03",
+      "title": "Advanced Technical Training",
+      "description": "Close your skill gaps with intensive, role-specific technical coaching. Learn directly from industry experts to align your capabilities with elite US enterprise standards.",
+      "cta": "Start technical coaching"
+    }
+  ],
+
+  "insights_section": {
+    "label": "THE PLAYBOOK",
+    "title": "Insights to Fuel Your US Career Leap",
+    "cta": "View all articles"
+  },
+
+  "insights_posts": [
+    {
+      "tag": "Resume",
+      "image": "/images/blog/Insights01.png",
+      "title": "7 ATS Mistakes That Get International Resumes Rejected",
+      "date": "Jun 24, 2026",
+      "readTime": "6 min read"
+    },
+    {
+      "tag": "Interviews",
+      "image": "/images/blog/Insights02.png",
+      "title": "How to Answer \"Do You Need Sponsorship?\" Without Losing the Offer",
+      "date": "Jun 10, 2026",
+      "readTime": "8 min read"
+    },
+    {
+      "tag": "Job Search",
+      "image": "/images/blog/insights03.png",
+      "title": "The 90-Day OPT Job Search Plan, Week by Week",
+      "date": "May 28, 2026",
+      "readTime": "10 min read"
+    }
+  ],
+
+  "get_started_section": {
+    "title_line1": "Your Dream Job Shouldn't",
+    "title_line2": "Depend on Trial and Error!",
+    "description": "A stronger profile, interview performance and real hiring insights can make all the difference. Let's build a career strategy that delivers those results for you.",
+    "cta": "Stand Out Today"
+  },
+
+  "footer": {
+    "about": "Career guidance, resume optimization, and interview preparation for international students entering the US job market.",
+    "copyright": "© 2026 Get-Hired. All rights reserved.",
+    "columns": [
+      {
+        "heading": "SERVICES",
+        "links": [
+          "Resume Preparation",
+          "Cover Letter Upgrade",
+          "LinkedIn Makeover",
+          "Job Portal Profile Makeover"
+        ]
+      },
+      {
+        "heading": "RESOURCES",
+        "links": ["Career Insights", "Success Stories", "FAQ", "Book Consultation"]
+      },
+      {
+        "heading": "COMPANY",
+        "links": ["About", "Services", "Results", "Contact"]
+      }
+    ]
+  },
+
+  "not_found": {
+    "title": "404 — Page Not Found",
+    "description": "The page you are looking for doesn't exist.",
+    "cta": "Back to Home"
+  }
+}

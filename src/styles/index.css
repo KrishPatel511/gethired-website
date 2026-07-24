@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* Brand fonts — Plus Jakarta Sans for both display and body */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@theme {
+  /* ===== Get-Hired brand tokens (colors from the logo) ===== */
+  --color-primary: #c32f26;
+  --color-primary-dark: #a3251e;
+  --color-navy: #080F31;
+  /* --color-navy: #1e2b69; */
+  --color-navy-deep: #0a1128;
+  --color-body: #55627e;
+  --color-cream: #fdfdfb;
+  --color-sky-soft: #dce6fa;
+  --color-sky-deep: #bfd3fa;
+  --color-lilac: #eef1fb;
+
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    /* Anchor targets stop below the fixed navbar */
+    scroll-padding-top: 88px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-navy);
+  }
+}
+
+/* ===== Logo marquee pause on hover (Kadders pattern) ===== */
+.marquee-area:hover .marquee-inner {
+  animation-play-state: paused;
+}
+
+/* ===== Hide scrollbar (Kadders pattern) ===== */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ===== Accordion open/close (simple CSS transition) ===== */
+.accordion-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s ease;
+}
+
+.accordion-body.open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-body > div {
+  overflow: hidden;
+}
+
+
+/* ===== Marquee edge fade (center-focus effect) ===== */
+.marquee-fade {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 32%,
+    black 68%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 32%,
+    black 68%,
+    transparent 100%
+  );
+}
+
+
